@@ -2,55 +2,85 @@
 
 ## Business Analysis Portfolio Case Study
 
-**Project type:** Fictional portfolio / case study  
-**Product:** SupportFlow (fictional SaaS customer support platform)
+> A fictional SaaS case study demonstrating Business Analysis techniques across stakeholder analysis, process mapping, requirements gathering, process improvement, UAT, KPI analysis and SQL.
 
-> This project is a portfolio case study created for learning and demonstration. It is not presented as work completed for a real client or employer.
+---
 
-## Business problem
-SupportFlow's customer support workflow relies on manual ticket categorization, assignment and escalation. This can create routing errors, resolution delays, SLA risks, repeated customer interactions and limited visibility into recurring issues.
+## 📌 Project Overview
 
-## Objective
-Analyze the existing workflow, identify pain points and process gaps, define business and functional requirements, design an improved To-Be workflow, and establish UAT scenarios and KPIs for measuring improvement.
+**SupportFlow** is a fictional SaaS customer support platform used by businesses to manage customer support tickets, issue categorization, ticket assignment, SLA tracking, escalations and resolution workflows.
 
-## Project flow
-1. Project Background & Business Problem
-2. Stakeholder Analysis
-3. As-Is Process
-4. Pain Point & Gap Analysis
-5. Requirements / BRD
-6. To-Be Process
-7. User Stories & Acceptance Criteria
-8. Jira-style Backlog
-9. UAT Scenarios
-10. KPI Framework
-11. Final Case Study
+This project analyzes the existing customer support workflow, identifies process gaps and pain points, gathers business and functional requirements, and proposes an improved support workflow.
 
-## Key BA artifacts
-- Stakeholder matrix
-- As-Is process flow
-- Pain point and gap analysis
-- Business Requirements Document (BRD)
-- Functional / non-functional requirements
-- Requirements Traceability Matrix (RTM)
-- To-Be process flow
-- User stories and acceptance criteria
-- Jira-style backlog
-- UAT scenarios
-- KPI framework
-- SQL analysis examples
-- Final case study
+The project follows a structured Business Analysis lifecycle from identifying the business problem through requirements, user stories, UAT and KPI definition.
 
-## Assumptions
-All business volumes, KPI baselines, targets and examples in this portfolio are illustrative assumptions unless explicitly stated otherwise.
+---
 
-## Tools
-- Microsoft Word / Google Docs
-- Microsoft Excel
-- diagrams.net / draw.io conceptually
-- Jira-style backlog
-- SQL
-- GitHub
+## 🎯 Business Problem
 
-## Portfolio story
-**Business Problem → Stakeholders → As-Is → Pain Points → Gap Analysis → Requirements → To-Be → User Stories → Backlog → UAT → KPIs → Business Impact**
+The existing customer support workflow relies heavily on manual ticket categorization, assignment and escalation.
+
+This can result in:
+
+- Incorrect ticket routing
+- Delays in issue resolution
+- Increased SLA risk
+- Repeated communication with customers
+- Incomplete information during technical handoffs
+- Limited visibility into recurring customer issues
+- Difficulty identifying workflow bottlenecks
+
+A key example is **insufficient information at ticket creation**, which may require support agents to go back to customers for additional details before beginning investigation.
+
+---
+
+## 🎯 Project Objective
+
+The objective of this project is to:
+
+- Analyze the existing customer support workflow
+- Identify process gaps and operational pain points
+- Understand stakeholder needs and expectations
+- Define business and functional requirements
+- Design an improved To-Be workflow
+- Convert requirements into user stories and acceptance criteria
+- Define UAT scenarios for business validation
+- Establish KPIs to measure workflow performance
+- Demonstrate how SQL can support operational analysis
+
+---
+
+## 🔍 Business Analysis Approach
+
+The project follows the following BA lifecycle:
+
+```text
+Business Problem
+       ↓
+Stakeholder Analysis
+       ↓
+As-Is Process
+       ↓
+Pain Point Analysis
+       ↓
+Gap Analysis
+       ↓
+Requirements Gathering
+       ↓
+Business & Functional Requirements
+       ↓
+BRD
+       ↓
+To-Be Process
+       ↓
+User Stories
+       ↓
+Acceptance Criteria
+       ↓
+Jira-style Backlog
+       ↓
+UAT
+       ↓
+KPI Analysis
+       ↓
+Expected Business Impact
